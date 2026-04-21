@@ -32,7 +32,7 @@ do
 done
 
 sudo apt update
-sudo apt install -y flex bison
+sudo apt install -y flex bison bc kmod
 sudo apt update
 sudo apt install -y fakeroot build-essential libncurses-dev xz-utils libssl-dev flex libelf-dev bison
 echo "I: make vyos_defconfig"
