@@ -31,7 +31,8 @@ do
     patch -p1 < ${PATCH_DIR}/${patch}
 done
 
-
+sudo apt update
+sudo apt install -y flex bison
 echo "I: make vyos_defconfig"
 # Select Kernel configuration - currently there is only one
 make vyos_defconfig
