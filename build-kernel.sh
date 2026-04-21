@@ -34,7 +34,7 @@ done
 sudo apt update
 sudo apt install -y flex bison
 sudo apt update
-sudo apt install fakeroot build-essential libncurses-dev xz-utils libssl-dev flex libelf-dev bison
+sudo apt install -y fakeroot build-essential libncurses-dev xz-utils libssl-dev flex libelf-dev bison
 echo "I: make vyos_defconfig"
 # Select Kernel configuration - currently there is only one
 make vyos_defconfig
